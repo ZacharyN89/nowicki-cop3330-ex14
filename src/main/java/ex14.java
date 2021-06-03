@@ -49,15 +49,17 @@ public class ex14 {
 
         String amount = String.format("%.2f", amt);
         String taxes = String.format("%.2f", tax);
-        String fullAmt = String.format("%.2f", total);
+
+        String ret = "";
 
         if(state.equals("WI")){
-            System.out.println("The subtotal is: $" + amount + ".");
-            System.out.println("The tax is: $" + taxes + ".");
-            System.out.println("The total is: $" + fullAmt + ".");
-            return;
+            ret += "The subtotal is: $" + amount + ".\n";
+            ret += "The tax is: $" + taxes + ".\n";
+            amount = String.format("%.2f", total);
         }
 
-        System.out.println("The total is: $" + amount + ".");
+        ret += "The total is: $" + amount + ".";
+
+        System.out.println(ret);
     }
 }
