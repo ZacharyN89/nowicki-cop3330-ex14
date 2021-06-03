@@ -55,10 +55,9 @@ public class ex14 {
             System.out.println("The subtotal is: $" + amount + ".");
             System.out.println("The tax is: $" + taxes + ".");
             System.out.println("The total is: $" + fullAmt + ".");
+            return;
+        }
 
-        }
-        else{
-            System.out.println("The total is: $" + amount + ".");
-        }
+        System.out.println("The total is: $" + amount + ".");
     }
 }
