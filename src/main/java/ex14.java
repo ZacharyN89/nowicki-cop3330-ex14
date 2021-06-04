@@ -28,7 +28,10 @@ Challenges
     Allow the user to enter a state abbreviation in upper, lower, or mixed case.
     Also allow the user to enter the state’s full name in upper, lower, or mixed case.
 */
-
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solutions
+ *  Copyright 2021 first_name last_name
+ */
 import java.util.Scanner;
 
 public class ex14 {
